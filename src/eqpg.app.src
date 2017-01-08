@@ -1,0 +1,18 @@
+{application, eqpg,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { eqpg_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    erespool,
+    epgsql
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
